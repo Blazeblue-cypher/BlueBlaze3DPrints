@@ -1,8 +1,10 @@
 body {
-    font-family: "Open Sans", sans-serif; }
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: silver;
+}
   
   h1, h2, h3 {
-    font-family: "Lobster", cursive; }
+    font-family: "Fantasy"; }
   
   h2 {
     color: #3046C5; }
@@ -11,13 +13,13 @@ body {
     color: #CEC8FF; }
   
   .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#839cff, white);
     padding: 20px 0; }
   
   .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+    background-image: linear-gradient(to right, #6168fb, #4c66f9, #4a14ed);
     color: rgb(103, 52, 52); }
   
   .row-content {
@@ -29,7 +31,7 @@ body {
     margin: 0; }
   
   footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#533dfb, white);
     padding: 20px 0; }
   
   .tab-content {
@@ -43,7 +45,7 @@ body {
   
   
   #loginModal .modal-header {
-    background-color: #901CAD;
+    background-color: #064ee9;
     color: rgb(187, 95, 95); }
   
   #carouselButton {
@@ -51,12 +53,18 @@ body {
     right: 0;
     bottom: 0%;
     z-index: 100; }
+
+ .breadcrumb {
+
+  background-image: linear-gradient(silver, lightblue);
+
+  }
   
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); }
   
   .navbar {
-    background-color: #901CAD; }
+    background-color: #2709d1; }
   
   .carousel {
     border: solid #5637dd; }
@@ -98,7 +106,7 @@ body {
 .container {
   background-color: #4683a2;
   padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
+  border: 1px solid lightskyblue;
   border-radius: 3px;
 }
 
